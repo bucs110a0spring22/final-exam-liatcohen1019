@@ -7,10 +7,13 @@ class CatAPI:
     
   def get(self):
     response = requests.get(self.api_url)
+      #calls the url defined
+
     #self.images = repsonse.json()
   
   def __str__(self):
     return self.image ['results']
+    #uses url
     print ('Your cat breed is [breed]')
 
     
